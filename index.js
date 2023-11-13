@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 let button = document.querySelector("#mealsearch");
 button.addEventListener("submit", renderSearch);
 
@@ -54,4 +51,3 @@ function toTitleCase(str) {
     });
 }
 
->>>>>>> c1dc1f69cc6140e7a55b04f22210f55604a7c896
