@@ -8,7 +8,7 @@
   </head>
   <body>
     <h1 id="title">Recipe Finder</h1>
-    <p id="description">What would you like to eat today?</p>
+    <h2 id="description">What would you like to eat today?</h2>
     <div id="search">
       <form id="mealsearch">
         <label for="meal"
@@ -17,13 +17,24 @@
         <button type="submit">Submit</button>
       </form>
     </div>
-    <div id="categories">
-      <ul id="each-category"></ul>
-    </div>
-    <div id="mainpage">
-      <p id="main-title">Main Title</p>
-      <h1 id="container"></h1>
-      <ul id="specific-foods"></ul>
+    <div class="level">
+      <div id="categories">
+        <ul id="each-category"></ul>
+        <ul id="specific-foods"></ul>
+      </div>
+      <div class="saveBlock">
+        <div id="mainpage" class="mainBlock">
+          <p id="main-title"></p>
+          <img id="thumbnail" src="" class="img" />
+          <h1 id="container" class="mainParagraph"></h1>
+          <button id="save-recipe">Save Recipe</button>
+        </div>
+        <div class="saved">
+          <ul id="saved-items">
+            Saved Meals:
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
