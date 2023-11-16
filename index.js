@@ -21,8 +21,6 @@ viewCategories.addEventListener("click", function(){
 
 })
 
-
-console.log()
 //BUTTON TEST 
 
 document.addEventListener("DOMContentLoaded", fetchRandomMeal);
